@@ -75,8 +75,8 @@ describe('Webhook Helper Functions', () => {
 	});
 
 	describe('getNodeWebhookUrl', () => {
-		const webhookBaseUrl = 'http://localhost:5678/webhook';
-		const webhookTestBaseUrl = 'http://localhost:5678/webhook-test';
+		const webhookBaseUrl = 'https://n8n-1-76r3.onrender.com/webhook';
+		const webhookTestBaseUrl = 'https://n8n-1-76r3.onrender.com/webhook-test';
 		const additionalData = mock<IWorkflowExecuteAdditionalData>({
 			webhookBaseUrl,
 			webhookTestBaseUrl,
