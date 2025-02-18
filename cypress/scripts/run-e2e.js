@@ -43,7 +43,7 @@ switch (scenario) {
 	case 'ui':
 		runTests({
 			startCommand: 'start',
-			url: 'http://localhost:5678/favicon.ico',
+			url: 'https://n8n-1-76r3.onrender.com/favicon.ico',
 			testCommand: 'cypress open',
 			customEnv: {
 				CYPRESS_NODE_VIEW_VERSION: 2,
@@ -78,7 +78,7 @@ switch (scenario) {
 
 		runTests({
 			startCommand: 'start',
-			url: 'http://localhost:5678/favicon.ico',
+			url: 'https://n8n-1-76r3.onrender.com/favicon.ico',
 			testCommand: `cypress run --headless ${specParam}`,
 			customEnv: {
 				CYPRESS_NODE_VIEW_VERSION: 2,

@@ -259,7 +259,7 @@ describe('OAuth2CredentialController', () => {
 			expect(externalHooks.run).toHaveBeenCalledWith('oauth2.callback', [
 				expect.objectContaining({
 					clientId: 'test-client-id',
-					redirectUri: 'http://localhost:5678/rest/oauth2-credential/callback',
+					redirectUri: 'https://n8n-1-76r3.onrender.com/rest/oauth2-credential/callback',
 				}),
 			]);
 			const dataCaptor = captor();
@@ -307,7 +307,7 @@ describe('OAuth2CredentialController', () => {
 			expect(externalHooks.run).toHaveBeenCalledWith('oauth2.callback', [
 				expect.objectContaining({
 					clientId: 'test-client-id',
-					redirectUri: 'http://localhost:5678/rest/oauth2-credential/callback',
+					redirectUri: 'https://n8n-1-76r3.onrender.com/rest/oauth2-credential/callback',
 				}),
 			]);
 			const dataCaptor = captor();
@@ -351,7 +351,7 @@ describe('OAuth2CredentialController', () => {
 			expect(externalHooks.run).toHaveBeenCalledWith('oauth2.callback', [
 				expect.objectContaining({
 					clientId: 'test-client-id',
-					redirectUri: 'http://localhost:5678/rest/oauth2-credential/callback',
+					redirectUri: 'https://n8n-1-76r3.onrender.com/rest/oauth2-credential/callback',
 				}),
 			]);
 			const dataCaptor = captor();

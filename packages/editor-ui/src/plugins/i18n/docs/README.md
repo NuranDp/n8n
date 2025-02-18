@@ -43,7 +43,7 @@ Version: 0.156.0
 Locale: de
 
 Editor is now accessible via:
-http://localhost:5678/
+https://n8n-1-76r3.onrender.com/
 
 Press "o" to open in Browser.
 ```
