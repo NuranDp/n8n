@@ -46,7 +46,7 @@ npx n8n
 It will download everything that is needed to start n8n.
 
 You can then access n8n by opening:
-[http://localhost:5678](http://localhost:5678)
+[https://n8n-1-76r3.onrender.com](https://n8n-1-76r3.onrender.com)
 
 **Note:** The minimum required version for Node.js is v18. Make sure to update Node.js to v18 or above.
 

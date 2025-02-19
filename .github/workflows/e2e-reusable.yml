@@ -150,7 +150,7 @@ jobs:
           working-directory: cypress
           install: false
           start: pnpm start
-          wait-on: 'http://localhost:5678'
+          wait-on: 'https://n8n-1-76r3.onrender.com'
           wait-on-timeout: 120
           record: ${{ inputs.record }}
           parallel: ${{ fromJSON( inputs.spec == 'e2e/*' && inputs.parallel || false ) }}
